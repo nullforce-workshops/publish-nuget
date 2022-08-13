@@ -8,6 +8,7 @@
 
   <PropertyGroup>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>Nullforce.Example.NuGetExample</PackageId>
     <Version>0.1.0</Version>
     <Authors>Nullforce</Authors>
     <Description>An example NuGet package</Description>
