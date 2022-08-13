@@ -14,8 +14,10 @@
     <Copyright>Copyright 2022 nullforce</Copyright>
     <RepositoryUrl>https://github.com/nullforce-workshops/publish-nuget</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageTags>example</PackageTags>
+    <PackageIcon>icon.png</PackageIcon>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageTags>example</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
@@ -23,6 +25,12 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+    <None Include="..\..\LICENSE.txt" Pack="true" PackagePath="\" />
+    <None Include="..\..\icon.png" Pack="true" PackagePath="\" />
   </ItemGroup>
 
 </Project>
