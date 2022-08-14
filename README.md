@@ -4,6 +4,12 @@ An example of creating a NuGet package with:
 - Publishing to GitHub packages
 - Versioning via GitVersion
 
+|                      |   |
+|----------------------|---|
+|**Build**             | [![Build Status](https://github.com/nullforce-workshops/publish-nuget/workflows/build/badge.svg?branch=main)](https://github.com/nullforce-workshops/publish-nuget/actions)|
+|**NuGet**             | [![nuget](https://img.shields.io/nuget/v/Nullforce.ExampleNuget.svg)](https://www.nuget.org/packages/Nullforce.ExampleNuget/)|
+|**NuGet (prerelease)**| [![nuget](https://img.shields.io/nuget/vpre/Nullforce.ExampleNuget.svg)](https://www.nuget.org/packages/Nullforce.ExampleNuget/)|
+
 ## NuGet Packaging
 
 The NuGet package created from the `main` branch will:
